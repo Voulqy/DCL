@@ -75,7 +75,7 @@ h2 {
 .track-grid {
     display: grid;
     grid-template-columns: 50px 258px 50px;
-    grid-template-rows: 28px;
+    grid-template-rows: 35px;
     margin: 0 auto;
 }
 
@@ -87,7 +87,7 @@ h2 {
 .track-number {
     grid-column: 1;
     padding-left: 10px;
-    padding-top: 4px;
+    padding-top: 8px;
 }
 
 .track-name {
@@ -96,12 +96,12 @@ h2 {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    padding-top: 4px;
+    padding-top: 8px;
 }
 
 .track-length {
     grid-column: 3;
-    padding-top: 4px;
+    padding-top: 8px;
 }
 
 .track-border {
