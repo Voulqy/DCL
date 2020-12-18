@@ -5,14 +5,87 @@ body {
     margin-top: 40px;
 }
 
-h1 {
-    text-align: center;
+h2 {
+    text-align: left;
+    border-bottom: #2b2b2b 3px solid;
+    padding-bottom: 5px;
 }
 
+/* album info div grid */
+
+.album-grid {
+    display: grid;
+    grid-template-columns: 125px 233px;
+    grid-template-rows: 20px;
+}
+
+.album-cover{
+    grid-column: 1;
+    grid-row: 1/5;
+    
+}
+
+.album-cover img{
+    width: 125px;
+    max-height: 125px;
+    padding-top: 2px;
+}
+
+.album-date {
+    padding-left: 5px;
+    font-size: 12px;
+    color:#474747;
+    grid-column: 2;
+    grid-row: 1; 
+}
+
+.album-name {
+    padding-left: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    grid-column: 2;
+    grid-row: 2; 
+}
+
+.album-region {
+    padding-left: 5px;
+    grid-column: 2; 
+    grid-row: 4; 
+    text-align: left;  
+}
+
+.album-region img {
+    width: auto;
+    height: 20px;
+    text-align: left;  
+    float: left;
+}
+
+.album-length {
+    padding-left: 5px;
+    font-size: 12px;
+    color:#474747;
+    grid-column: 2;
+}
+
+/* album info div grid */
+
+/* track info div grid */
+
+.track-grid {
+    display: grid;
+    grid-template-columns: 50px 258px 50px;
+    grid-template-rows: 28px;
+    margin: 0 auto;
+}
+
+.track-grid:hover {
+    background-color: #2b2b2b;
+    cursor: pointer;
+}
 
 .track-number {
     grid-column: 1;
-    padding-right: 46px;
     padding-left: 10px;
     padding-top: 4px;
 }
@@ -31,19 +104,8 @@ h1 {
     padding-top: 4px;
 }
 
-.track-grid {
-    display: grid;
-    grid-template-columns: 50px 258px 50px;
-    grid-template-rows: 28px;
-    margin: 0 auto;
-    /* background-color: #2b2b2b; */
-}
-
-.track-grid:hover {
-    background-color: #2b2b2b;
-    cursor: pointer;
-}
-
 .track-border {
     border-top: #2b2b2b 1px solid;
 }
+
+/* track info div grid */
