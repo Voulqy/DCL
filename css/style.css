@@ -3,6 +3,7 @@ body {
     color: white;
     font-family: 'Noto Sans KR', sans-serif;
     margin-top: 40px;
+    padding: 0;
 }
 
 h2 {
@@ -15,7 +16,7 @@ h2 {
 
 .album-grid {
     display: grid;
-    grid-template-columns: 125px 233px;
+    grid-template-columns: 125px 223px;
     grid-template-rows: 20px;
     -ms-user-select:none;
    -moz-user-select:none;
@@ -23,6 +24,7 @@ h2 {
    -webkit-touch-callout: none;
    -khtml-user-select: none;
     user-select:none;
+    overflow-x: hidden;
 }
 
 .album-cover{
@@ -80,9 +82,10 @@ h2 {
 
 .track-grid {
     display: grid;
-    grid-template-columns: 50px 258px 50px;
+    grid-template-columns: 50px 248px 50px;
     grid-template-rows: 35px;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 .track-grid:hover {
