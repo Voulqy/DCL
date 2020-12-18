@@ -1,0 +1,53 @@
+body {
+    background-color: #121212;
+    color: white;
+    /* font-size: 36px; */
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    /* font-weight: bold; */
+}
+
+
+.JiU, .SuA, .Siyeon, .Handong, .Yoohyeon, .Dami, .Gahyeon {
+    font-size: 20px;
+}
+
+.JiU {
+    color: #dc3d53;
+}
+
+.SuA {
+    color: #af75f9;
+}
+
+.Siyeon {
+    color: #ff8c1a;
+}
+
+.Handong {
+    color: #b0e741;
+}
+
+.Yoohyeon {
+    color: #5ecc83;
+}
+
+.Dami {
+    color: #42c5d8;
+}
+
+.Gahyeon {
+    color: #ff55e9;
+}
+
+.Other {
+    color: #b6b6b6;
+    font-size: 15px;
+    /* margin-bottom: 25px; */
+}
+
+.HGEN {
+    line-height: 0.6cm;
+    /* box-sizing: inherit; */
+}

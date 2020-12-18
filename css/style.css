@@ -3,51 +3,50 @@ body {
     color: white;
     /* font-size: 36px; */
     font-family: 'Noto Sans KR', sans-serif;
-    text-align: center;
+    
     margin-top: 40px;
     /* font-weight: bold; */
 }
 
-
-.JiU, .SuA, .Siyeon, .Handong, .Yoohyeon, .Dami, .Gahyeon {
-    font-size: 20px;
+h1 {
+    text-align: center;
 }
 
-.JiU {
-    color: #dc3d53;
+
+.track-number {
+    grid-column: 1;
+    padding-right: 46px;
+    padding-left: 10px;
+    padding-top: 4px;
 }
 
-.SuA {
-    color: #af75f9;
+.track-name {
+    grid-column: 2;
+    max-width: 258px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-top: 4px;
 }
 
-.Siyeon {
-    color: #ff8c1a;
+.track-length {
+    grid-column: 3;
+    padding-top: 4px;
 }
 
-.Handong {
-    color: #b0e741;
+.track-grid {
+    display: grid;
+    grid-template-columns: 50px 258px 50px;
+    grid-template-rows: 28px;
+    margin: 0 auto;
+    /* background-color: #2b2b2b; */
 }
 
-.Yoohyeon {
-    color: #5ecc83;
+.track-grid:hover {
+    background-color: #2b2b2b;
+    cursor: pointer;
 }
 
-.Dami {
-    color: #42c5d8;
-}
-
-.Gahyeon {
-    color: #ff55e9;
-}
-
-.Other {
-    color: #828282;
-    font-size: 15px;
-    /* margin-bottom: 25px; */
-}
-
-.HGEN {
-    line-height: 0.6cm;
-    /* box-sizing: inherit; */
+.track-border {
+    border-top: #2b2b2b 1px solid;
 }
