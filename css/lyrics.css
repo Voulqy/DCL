@@ -51,3 +51,20 @@ body {
     line-height: 0.6cm;
     /* box-sizing: inherit; */
 }
+
+@media only screen and (min-width: 500px) {
+
+    .JiU, .SuA, .Siyeon, .Handong, .Yoohyeon, .Dami, .Gahyeon {
+        font-size: 40px;
+    }
+
+    .Other {
+        font-size: 30px;
+    }
+
+    .HGEN {
+        line-height: 1cm;
+        /* box-sizing: inherit; */
+    }
+
+}
