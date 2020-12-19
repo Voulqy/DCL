@@ -66,14 +66,14 @@ h2 {
 
 .album-region img {
     width: auto;
-    height: 20px;
+    height: 22px;
     text-align: left;  
     float: left;
 }
 
 .album-length {
     padding-left: 5px;
-    font-size: 14px;
+    font-size: 12px;
     color:#474747;
     grid-column: 1;
 }
