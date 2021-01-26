@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'NSKR-Regular', sans-serif;
+    src: url(assets/fonts/NotoSansKR-Regular.otf)
+}
+
+:root {
+    --bg-color: #111111;
+    --bs-text: #ffffff;
+    /* --bs-text: #f7435b; */
+    /* --bs-text: #1f1f1f; */
+}
+
+/* Media Queries */
+/* iPhone X Vertical */
+@media only screen and (min-width: 375px) and (max-width: 376px) {
+    body {
+        background-color: var(--bg-color);
+        font-size: 2em;
+        font-family: 'NSKR-Regular', sans-serif;
+        font-weight: normal;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .album-name {
+        white-space: nowrap;
+        width: 145px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+
+    .album-date {
+         font-size: 13px;
+         margin-top: 4px;
+         margin-bottom: 10px;
+    }
+    .album-name, .album-date {
+        margin-left: 22px;
+        color: var(--bs-text)
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+    img.album-cover {
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    img.album-cover:active, img.album-cover:hover {
+        -webkit-filter: brightness(70%);
+        -webkit-transition: all .1s ease;
+        -moz-transition: all .1s ease;
+        -o-transition: all .1s ease;
+        -ms-transition: all .1s ease;
+        transition: all .1s ease;
+        cursor: pointer;
+    }
+
+    .album {
+        float: left;
+    }
+}
+/* iPhone X Vertical */
+
+/* iPhone X Horizontal */
+@media only screen and (min-width: 812px) and (max-width: 813px) {
+    
+}
+/* iPhone X Horizontal */
+
+/* iPad Pro 12.9 Vertical */
+@media only screen and (min-width: 1024px) and (max-width: 1025px) {
+
+}
+/* iPad Pro 12.9 Vertical */
+
+/* iPad Pro 12.9 Horizontal */
+@media only screen and (min-width: 1366px) and (max-width: 1367px) {
+
+}
+/* iPad Pro 12.9 Horizontal */
+
+/* Desktop Half Screen */
+@media only screen and (min-width: 958px) and (max-width: 959px) {
+
+}
+/* Desktop Half Screen */
+/* Media Queries */
