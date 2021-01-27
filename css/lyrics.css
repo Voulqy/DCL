@@ -1,0 +1,182 @@
+body {
+    background-color: #121212;
+    color: white;
+    /* font-size: 36px; */
+    font-family: 'Carmen Sans';
+    /* font-family: 'Noto Sans KR', sans-serif; */
+    text-align: center;
+    margin-top: 40px;
+    /* font-weight: bold; */
+}
+
+
+.JiU, .SuA, .Siyeon, .Handong, .Yoohyeon, .Dami, .Gahyeon {
+    font-size: 20px;
+}
+
+.JiU {
+    color: #dc3d53;
+}
+
+.SuA {
+    color: #af75f9;
+}
+
+.Siyeon {
+    color: #ff8c1a;
+}
+
+.Handong {
+    color: #b0e741;
+}
+
+.Yoohyeon {
+    color: #5ecc83;
+}
+
+.Dami {
+    color: #42c5d8;
+}
+
+.Gahyeon {
+    color: #ff55e9;
+}
+
+.Other {
+    color: #b6b6b6;
+    font-size: 12px;
+    /* margin-bottom: 25px; */
+}
+
+.HGEN {
+    line-height: 0.6cm;
+    /* box-sizing: inherit; */
+}
+
+@media only screen and (min-width: 500px) {
+
+    .JiU, .SuA, .Siyeon, .Handong, .Yoohyeon, .Dami, .Gahyeon {
+        font-size: 40px;
+    }
+
+    .Other {
+        font-size: 30px;
+    }
+
+    .HGEN {
+        line-height: 1cm;
+        /* box-sizing: inherit; */
+    }
+
+}
+
+/*  */
+
+@font-face {
+    font-family: 'Carmen Sans';
+    src: url('../font/CarmenSans-Medium.eot');
+    src: local('Carmen Sans Medium'), local('../font/CarmenSans-Medium'),
+        url('../font/CarmenSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../font/CarmenSans-Medium.woff2') format('woff2'),
+        url('../font/CarmenSans-Medium.woff') format('woff'),
+        url('../font/CarmenSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carmen Sans';
+    src: url('../font/CarmenSans-Bold.eot');
+    src: local('Carmen Sans Bold'), local('../font/CarmenSans-Bold'),
+        url('../font/CarmenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/CarmenSans-Bold.woff2') format('woff2'),
+        url('../font/CarmenSans-Bold.woff') format('woff'),
+        url('../font/CarmenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carmen Sans';
+    src: url('../font/CarmenSans-ExtraBold.eot');
+    src: local('Carmen Sans ExtraBold'), local('../font/CarmenSans-ExtraBold'),
+        url('../font/CarmenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/CarmenSans-ExtraBold.woff2') format('woff2'),
+        url('../font/CarmenSans-ExtraBold.woff') format('woff'),
+        url('../font/CarmenSans-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carmen Sans';
+    src: url('../font/CarmenSans-Heavy.eot');
+    src: local('Carmen Sans Heavy'), local('../font/CarmenSans-Heavy'),
+        url('../font/CarmenSans-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../font/CarmenSans-Heavy.woff2') format('woff2'),
+        url('../font/CarmenSans-Heavy.woff') format('woff'),
+        url('../font/CarmenSans-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carmen Sans';
+    src: url('../font/CarmenSans-Light.eot');
+    src: local('Carmen Sans Light'), local('../font/CarmenSans-Light'),
+        url('../font/CarmenSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/CarmenSans-Light.woff2') format('woff2'),
+        url('../font/CarmenSans-Light.woff') format('woff'),
+        url('../font/CarmenSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carmen Sans';
+    src: url('../font/CarmenSans-Regular.eot');
+    src: local('Carmen Sans Regular'), local('../font/CarmenSans-Regular'),
+        url('../font/CarmenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/CarmenSans-Regular.woff2') format('woff2'),
+        url('../font/CarmenSans-Regular.woff') format('woff'),
+        url('../font/CarmenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carmen Sans';
+    src: url('../font/CarmenSans-UltraLight.eot');
+    src: local('Carmen Sans UltraLight'), local('../font/CarmenSans-UltraLight'),
+        url('../font/CarmenSans-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('../font/CarmenSans-UltraLight.woff2') format('woff2'),
+        url('../font/CarmenSans-UltraLight.woff') format('woff'),
+        url('../font/CarmenSans-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carmen Sans';
+    src: url('../font/CarmenSans-Thin.eot');
+    src: local('Carmen Sans Thin'), local('../font/CarmenSans-Thin'),
+        url('../font/CarmenSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../font/CarmenSans-Thin.woff2') format('woff2'),
+        url('../font/CarmenSans-Thin.woff') format('woff'),
+        url('../font/CarmenSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carmen Sans';
+    src: url('../font/CarmenSans-SemiBold.eot');
+    src: local('Carmen Sans SemiBold'), local('../font/CarmenSans-SemiBold'),
+        url('../font/CarmenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/CarmenSans-SemiBold.woff2') format('woff2'),
+        url('../font/CarmenSans-SemiBold.woff') format('woff'),
+        url('../font/CarmenSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
